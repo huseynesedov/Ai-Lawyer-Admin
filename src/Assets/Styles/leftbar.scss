@@ -1,0 +1,48 @@
+.leftbar {
+    width: 253px !important;
+    justify-content: space-between;
+    display: flex !important;
+    padding: 30px !important;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 16%);
+}
+
+.UserPage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tc-91 {
+    color: #9197B3;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.Selectd {
+    width: 100%;
+    padding: 15px 11px;
+    border-radius: 8px;
+    background-color: #5932EA;
+    img {
+        filter: brightness(0) invert(1);
+        /* SVG'yi beyaz yapar */
+    }
+    div {
+        img {
+            filter: brightness(0) invert(1);
+            /* SVG'yi beyaz yapar */
+        }
+
+        span {
+            color: white;
+            /* Span içindeki yazıyı beyaz yapar */
+        }
+    }
+}
+
+

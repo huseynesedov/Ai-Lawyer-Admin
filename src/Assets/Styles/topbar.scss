@@ -1,0 +1,63 @@
+.fs-24 {
+    font-size: 24px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.TopBarMargin {
+    padding: 41px 0px;
+}
+
+.AdminCount {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.CountBorder {
+    border-right: 1px solid #F0F0F0;
+    display: flex;
+    padding: 0px 27px 0px 0px;
+}
+
+.CountDetail {
+    display: flex;
+    align-items: center;
+    padding: 21px 20px;
+}
+
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.spannn {
+    color: #ACACAC;
+}
+
+.CountDetailImg {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #D3FFE7 0%, #EFFFF6 35%);
+}
+
+.CountDetailImgBlock {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #FFD3DB 0%, #FFEFEF 3%);
+}

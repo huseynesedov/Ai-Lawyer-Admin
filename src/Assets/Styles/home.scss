@@ -1,0 +1,337 @@
+.fs-22 {
+    font-size: 22px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.tc-7E {
+    color: #7E7E7E;
+}
+
+.CountInputStyle {
+    width: 45px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #7E7E7E;
+    border-radius: 4px;
+    outline: none;
+}
+
+.CountPushButton {
+    width: 73px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F5FC2;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.Search {
+    width: 246px;
+    height: 38px;
+    position: relative;
+    border-radius: 8px;
+    border: 1.5px solid #7E7E7E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+        width: 64%;
+        outline: none;
+        border: none;
+        color: #7E7E7E;
+    }
+
+    img {
+        position: absolute;
+        padding: 8px 15px;
+        left: 0;
+    }
+}
+
+
+.tc-B5 {
+    font-family: "Poppins", sans-serif;
+    color: #B5B7C0 !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.TableTd {
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.ActiveStatus {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 10px;
+    // background-color: blue;
+}
+
+.TableMain {
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 8px !important;
+    padding-bottom: 10px !important;
+}
+
+.name {
+    color: #101828;
+}
+
+.premium {
+    color: #56BA28;
+}
+
+.bannedDiv {
+    width: 66px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.date {
+    color: #7E7E7E;
+}
+
+.edit {
+    padding: 10px 14px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #5932EA;
+}
+
+.Name-Email2 {
+    width: 25%;
+    display: flex;
+}
+
+
+.Name-Email {
+    width: 26%;
+
+}
+
+.Name-Email3 {
+    width: 23%;
+
+}
+
+.Name-Email4 {
+    width: 18%;
+
+}
+
+.banned {
+    color: #DF0404;
+}
+
+
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button,
+.pagination span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.active {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5932EA;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.inactive {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark overlay */
+    backdrop-filter: blur(5px);
+    /* Blur effect for the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensure it is above other elements */
+}
+
+.modal-content {
+    background: white !important;
+    /* White background for the modal */
+    padding: 20px !important;
+    border-radius: 20px !important;
+    /* Rounded corners */
+    width: 571px !important;
+    /* Width of the modal */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+    /* Soft shadow */
+    position: relative !important;
+    /* Position relative for any child elements */
+    z-index: 1001 !important;
+    /* Ensure content is above the overlay */
+}
+
+.banButton {
+    width: 222px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #FF0000;
+    color: white;
+    margin-left: 24px;
+}
+
+.unBanButton {
+    width: 222px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #00AC4F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.DeleteUserConfirmUser {
+    width: 93%;
+    margin-left: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteUser {
+    width: 222px;
+    height: 35px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FF0000;
+    border-radius: 8px;
+    color: #FF0000;
+}
+
+.confirmUser {
+    width: 230px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    background-color: #0F5FC2;
+}
+
+
+:where(.css-dev-only-do-not-override-apn68).ant-btn {
+    outline: none;
+    position: relative;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    touch-action: manipulation;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+
+
+.backButton {
+    padding: 4px 15px;
+    background-color: #0F5FC2;
+    border-radius: 6px;
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        img{
+            margin-top: 4px
+        }
+    }
+}
+
+
+.messageTick{
+    padding: 5px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #56CB8C;
+    border-radius: 6px;
+    color: white;
+}
+
+
+.premiumButton{
+    width: 222px;
+    height: 34px;
+    border-radius: 8px;
+    color: white;
+    background-color: #56BA28;
+}
+
+.unPremiumButton{
+    width: 222px;
+    height: 34px;
+    border-radius: 8px;
+    color: white;
+    background-color: #A2B3E7;
+    margin-right: 14px;
+}
